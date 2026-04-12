@@ -264,3 +264,10 @@ footer {
 .player-card {
   text-align: center;
 }
+.player-img {
+  transition: 0.3s ease;
+}
+
+.player-card:hover .player-img {
+  transform: scale(1.05);
+}
