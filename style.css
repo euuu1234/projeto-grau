@@ -252,3 +252,15 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
 }
+.player-img {
+  width: 100%;
+  max-width: 180px;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  border: 2px solid var(--primary);
+}
+
+.player-card {
+  text-align: center;
+}
