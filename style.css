@@ -1,9 +1,9 @@
 :root {
-  --preto: #0a0a0a;
-  --vermelho: #b30000;
-  --cinza: #1a1a1a;
-  --cinza-claro: #2a2a2a;
-  --branco: #ffffff;
+  --preto: #0b0f14;
+  --vermelho: #3a86ff; /* virou cor principal */
+  --cinza: #161b22;
+  --cinza-claro: #21262d;
+  --branco: #e6edf3;
 }
 
 * {
