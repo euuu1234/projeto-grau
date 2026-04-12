@@ -14,8 +14,8 @@
 }
 
 body {
-  background-color: #808080;
-  color: var(--branco);
+  background-color: var(--branco);
+  color: var(--preto);
 }
 
 header {
