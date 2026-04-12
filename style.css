@@ -272,8 +272,6 @@ footer {
   transform: scale(1.05);
 }
 .uniforms-section {
-  width: 100%;
-  max-width: 1100px;
   margin-top: 30px;
 }
 
@@ -305,7 +303,6 @@ footer {
   width: 100%;
   display: block;
   height: auto;
-  object-fit: cover;
 }
 
 .uniform-card h4 {
@@ -320,8 +317,19 @@ footer {
   padding: 0 18px 20px;
 }
 
+.uniform-card:last-child {
+  grid-column: 1 / -1;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
 @media (max-width: 768px) {
   .uniforms-grid {
     grid-template-columns: 1fr;
+  }
+
+  .uniform-card:last-child {
+    grid-column: auto;
+    max-width: 100%;
   }
 }
