@@ -14,7 +14,7 @@
 }
 
 body {
-  background-color: var(--branco);
+  background-color: var(--preto);
   color: var(--branco);
 }
 
@@ -435,26 +435,26 @@ footer {
   }
 }
 .site-background {
-  max-width: 1200px;
   width: 100%;
   min-height: calc(100vh - 140px);
-  margin: 0 auto;
   position: relative;
+  overflow: hidden;
 }
 
 .site-background::before {
   content: "";
   position: fixed;
-  top: 140px; /* começa abaixo do header */
+  top: 140px;
   left: 50%;
   transform: translateX(-50%);
   width: min(1200px, 100%);
   height: calc(100vh - 140px);
-  background-image: url("Emblema do Vale de Ferro.png");
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.82), rgba(0, 0, 0, 0.9)),
+    url("Emblema do Vale de Ferro.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
-  opacity: 0.12;
   pointer-events: none;
   z-index: -1;
 }
