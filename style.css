@@ -440,3 +440,27 @@ footer {
     font-size: 2.2rem;
   }
 }
+.site-background {
+  max-width: 1200px;
+  width: 100%;
+  min-height: calc(100vh - 140px);
+  margin: 0 auto;
+  position: relative;
+}
+
+.site-background::before {
+  content: "";
+  position: fixed;
+  top: 140px; /* começa abaixo do header */
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(1200px, 100%);
+  height: calc(100vh - 140px);
+  background-image: url("Emblema do Vale de Ferro.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  opacity: 0.12;
+  pointer-events: none;
+  z-index: -1;
+}
