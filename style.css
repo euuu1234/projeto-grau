@@ -333,3 +333,33 @@ footer {
     max-width: 100%;
   }
 }
+/* ===== PLAYER DE ÁUDIO (HINO) ===== */
+
+.audio-player {
+  margin-top: 25px;
+  max-width: 500px;
+  width: 100%;
+  background: rgba(26, 26, 26, 0.9);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 16px;
+  padding: 18px 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+.audio-player h3 {
+  color: var(--vermelho);
+  margin-bottom: 10px;
+}
+
+.audio-player p {
+  font-size: 0.9rem;
+  color: #ccc;
+  margin-bottom: 10px;
+}
+
+.audio-player audio {
+  width: 100%;
+  outline: none;
+  filter: contrast(1.2) brightness(1.1);
+}
