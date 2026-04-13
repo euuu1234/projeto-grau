@@ -82,12 +82,6 @@ nav {
     url("a_digital_illustration_of_the_emblem_of_vale_de_fe.png") center / cover no-repeat fixed;
 }
 
-.hero-home {
-  background:
-    linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.95)),
-    url("Emblema do Vale de Ferro.png") center / cover no-repeat;
-}
-
 .hero h2 {
   font-size: 3rem;
   margin-bottom: 20px;
